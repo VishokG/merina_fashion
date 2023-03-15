@@ -1,0 +1,41 @@
+.product_card {
+    /* background-color: pink; */
+    border: 0.5px solid lightgray;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.product_img {
+    border-radius: 5px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.product_text {
+    text-align: left;
+    padding-left: 10px;
+    font-size: .95rem;
+}
+
+.product_type, .product_name, .product_price {
+    font-weight: 600;
+}
+
+.product_type {
+    color: #e6978e;
+}
+
+.product_name {
+    margin-top: 10px;
+}
+
+.product_original_price {
+    color: lightgray;
+    text-decoration:line-through;
+}
+
+.slashed {
+    color: rgb(230, 122, 122);
+    margin-left: 3px;
+}

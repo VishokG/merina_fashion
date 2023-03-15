@@ -1,0 +1,23 @@
+.swiper_3 {
+    width: 70%;
+    height: 70%;
+    /* background-color: greenyellow; */
+}
+  
+.swiper_slide_3 {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    background-color: pink;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper_slide_3 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
